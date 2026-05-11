@@ -1,0 +1,84 @@
+aid: ibm-db2
+name: IBM Db2
+description: >-
+  IBM Db2 is a family of data management products from IBM that includes
+  relational and hybrid database servers running on cloud, distributed,
+  and z/OS platforms, supporting transactional, analytical, and AI
+  workloads. Db2 exposes RESTful services that let applications create,
+  discover, execute, and manage user-defined services natively against
+  the database, and IBM Db2 as a Service on IBM Cloud provides a managed
+  REST API for administering and querying cloud-hosted Db2 databases.
+  Authentication is performed via HTTP basic auth, client certificates,
+  or IBM Cloud IAM Bearer tokens depending on the deployment.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Database
+  - Relational Database
+  - Cloud Database
+  - SQL
+  - Data Management
+  - IBM Cloud
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/ibm-db2/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: ibm-db2:saas-api
+    name: IBM Db2 as a Service REST API
+    description: >-
+      REST API for IBM Db2 SaaS on IBM Cloud used to access data, view and
+      create database objects, administer users and roles, and monitor
+      cloud-hosted Db2 service instances. Authenticated via IBM Cloud IAM
+      Bearer tokens.
+    humanURL: https://cloud.ibm.com/apidocs/db2-on-cloud/db2-on-cloud-v4
+    baseURL: https://api.dashdb.com/v4
+    tags:
+      - Cloud Database
+      - IBM Cloud
+      - SaaS
+      - IAM Bearer Token
+    properties:
+      - type: Documentation
+        url: https://cloud.ibm.com/apidocs/db2-on-cloud/db2-on-cloud-v4
+  - aid: ibm-db2:rest-services
+    name: IBM Db2 REST Services
+    description: >-
+      Native Db2 REST services that allow applications to create, discover,
+      execute, and manage user-defined services directly against a Db2
+      database via HTTPS, integrated with the Db2 distributed data facility.
+      Authenticated with HTTP basic auth or client certificate authentication.
+    humanURL: https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=db2-rest-services
+    baseURL: https://{db2-rest-host}
+    tags:
+      - REST Services
+      - Database
+      - Db2 for z/OS
+      - HTTP Basic Auth
+    properties:
+      - type: Documentation
+        url: https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=db2-rest-services
+      - type: Sample OpenAPI Project
+        url: https://github.com/zosconnect/sample-db2-api
+
+common:
+  - type: Website
+    url: https://www.ibm.com/products/db2
+  - type: Documentation
+    url: https://www.ibm.com/docs/en/db2
+  - type: Pricing
+    url: https://www.ibm.com/products/db2/pricing
+  - type: Sign Up
+    url: https://cloud.ibm.com/registration
+  - type: Developer Center
+    url: https://www.ibm.com/products/db2/developers
+  - type: Community
+    url: https://community.ibm.com/community/user/datamanagement/communities/community-home?CommunityKey=db8b3b69-c8a7-44f4-b29f-1fa1bba6e3e5
+  - type: Support
+    url: https://www.ibm.com/mysupport
+  - type: LinkedIn
+    url: https://www.linkedin.com/showcase/ibm-analytics
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
