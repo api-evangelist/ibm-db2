@@ -69,7 +69,7 @@ common:
     url: https://www.ibm.com/docs/en/db2
   - type: Pricing
     url: https://www.ibm.com/products/db2/pricing
-  - type: SignUp
+  - type: Signup
     url: https://cloud.ibm.com/registration
   - type: Developer Center
     url: https://www.ibm.com/products/db2/developers
