@@ -63,6 +63,10 @@ apis:
         url: https://github.com/zosconnect/sample-db2-api
 
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ibm-db2-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ibm-db2-domain-security.yml
   - type: Website
     url: https://www.ibm.com/products/db2
   - type: Documentation
