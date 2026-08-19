@@ -34,7 +34,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/ibm-db2/refs/heads/main/apis.yml
 created: '2026-05-11'
 modified: '2026-05-11'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: ibm-db2:saas-api
     name: IBM Db2 as a Service REST API
