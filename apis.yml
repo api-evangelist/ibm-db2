@@ -48,6 +48,11 @@ apis:
     tags:
       - Cloud Database
       - IBM Cloud
+      - Software-as-a-Service
+      - IAM Bearer Token
+    tags_raw:
+      - Cloud Database
+      - IBM Cloud
       - SaaS
       - IAM Bearer Token
     properties:
