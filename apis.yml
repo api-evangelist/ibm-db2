@@ -7,6 +7,17 @@ description: IBM Db2 is a family of data management products from IBM that inclu
   and querying cloud-hosted Db2 databases. Authentication is performed via HTTP basic auth, client certificates,
   or IBM Cloud IAM Bearer tokens depending on the deployment.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
