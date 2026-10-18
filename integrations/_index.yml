@@ -76,7 +76,7 @@
     - alpha
     in_cloud: false
     builder: unknown (community connector; contributor not in the record)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: ibm-db2-meltano
   label: Meltano
@@ -112,5 +112,5 @@
     - silver
     - unknown
     builder: 'community (Meltano Hub variant maintainers: airbyte, danielptv, infostrux, mjsqu, singer-io)'
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
