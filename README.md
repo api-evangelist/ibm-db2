@@ -1,4 +1,4 @@
-# IBM Db2 (ibm-db2)\n\nAPI and integration profile for IBM Db2.
+# IBM Db2
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -63,3 +63,89 @@
 >
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
+
+IBM Db2 is a family of data management products from IBM that includes relational and hybrid database servers running on cloud, distributed, and z/OS platforms, supporting transactional, analytical, and AI workloads. Db2 exposes RESTful services that let applications create, discover, execute, and manage user-defined services natively against the database, and IBM Db2 as a Service on IBM Cloud provides a managed REST API for administering and querying cloud-hosted Db2 databases. Authentication is performed via HTTP basic auth, client certificates, or IBM Cloud IAM Bearer tokens depending on the deployment.
+
+**Areas:** Database · Relational Database · Cloud Database · SQL · Data Management · IBM Cloud
+
+## IBM Db2 on APIs.io
+
+Everything profiled for IBM Db2 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ibm-db2/](https://apis.io/providers/ibm-db2/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [IBM Db2 as a Service REST API](https://apis.io/apis/ibm-db2/saas-api/) — REST API for IBM Db2 SaaS on IBM Cloud used to access data, view and create database objects, administer users and roles, and monitor cloud-hosted Db2…
+- [IBM Db2 REST Services](https://apis.io/apis/ibm-db2/rest-services/) — Native Db2 REST services that allow applications to create, discover, execute, and manage user-defined services directly against a Db2 database via HTTPS,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ibm Db2 Domain Security](https://apis.io/security/ibm-db2/ibm-db2-domain-security/)
+- [Ibm Db2 Vulnerability Disclosure](https://apis.io/security/ibm-db2/ibm-db2-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ibm.com/products/db2)
+- [Documentation](https://www.ibm.com/docs/en/db2)
+- [Pricing](https://www.ibm.com/products/db2/pricing)
+- [Support](https://www.ibm.com/mysupport)
+
+## API Evangelist rating
+
+**Kin Score 13.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 23.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ibm-db2/](https://apis.io/providers/ibm-db2/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for IBM Db2: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ibm-db2/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
